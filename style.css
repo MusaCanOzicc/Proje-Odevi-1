@@ -1,5 +1,6 @@
 header {
     padding-top: 10rem;
+    padding-bottom: 2rem;
 }
 
 .img-button {
@@ -51,4 +52,66 @@ header {
     fill: #2937f0;
     bottom: 15%;
     left: 10%;
+}
+
+.section-grad {
+    margin-top: 40px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background: rgb(41, 55, 240);
+    background: linear-gradient(
+        145deg,
+        rgba(41,55,240,1) 0%,
+        rgba(159,26,226,1) 100%
+    );
+}
+
+.section-grad .container {
+    max-width: 720px;
+}
+
+.complex-section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.complex-section .hero-image::after {
+    width: 300px;
+    height: 300px;
+    left: 27%;
+    top: 55%;
+}
+
+.complex-section .shape-1 {
+    left: 90%;
+    bottom: 90%;
+}
+
+.complex-section .shape-2 {
+    top: 90%;
+    right: 94%;
+}
+
+.text-gradient {
+    background: -webkit-linear-gradient(#2937f0,#9f1ae2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cta {
+    padding: 240px 0px;
+    position: relative;
+    background-image: url(https://images.unsplash.com/photo-1620912189865-1e8a33da4c5e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY4MTg1MDA1Ng&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1500);
+}
+
+.cta::before {
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.5);
 }
