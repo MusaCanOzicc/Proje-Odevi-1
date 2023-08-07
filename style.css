@@ -115,3 +115,12 @@ header {
     z-index: 0;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
+h4 {
+    font-size: 32px;
+}
+
+.button-wrapper {
+    width: max-content;
+    margin-top: 1rem;
+}
